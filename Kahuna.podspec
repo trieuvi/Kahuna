@@ -11,5 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/trieuvi/Kahuna.git", :branch => "master" }
   s.platform	     = :ios, '8.0'
   s.requires_arc     = true
-  s.source_files     = "Pod/Kahuna.framework/Headers/*.h", "Pod/*", "Pod/**/*"
+  s.source_files      = "Kahuna.framework/Headers/*.h"
+  s.public_header_files = "Kahuna.framework/Headers/*.h"
+  s.vendored_frameworks = "Kahuna.framework"
 end
