@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name             = "Kahona"
+  s.name             = "Kahuna"
   s.version          = "1.0.0"
-  s.summary          = "Kahona Library"
+  s.summary          = "Kahuna Library"
   s.description      = <<-DESC
-                       Rebuild Kahona from source
+                       Rebuild Kahuna from source
                        DESC
-  s.homepage         = "https://github.com/trieuvi/Kahona"
+  s.homepage         = "https://github.com/trieuvi/Kahuna"
   s.license          = 'MIT'
   s.author           = { "Trieu Vi" => "trieuvi@gmail.com" }
   s.source           = { :git => "https://github.com/trieuvi/Kahuna.git", :branch => "master" }
